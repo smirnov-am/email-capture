@@ -1,0 +1,16 @@
+{
+  "prod": {
+    "log_level": "WARNING",
+    "app_function": "main.app",
+    "aws_region": "eu-west-1",
+    "profile_name": "default",
+    "project_name": "email-capture",
+    "runtime": "python3.8",
+    "s3_bucket": "zappa-email-capture",
+    "timeout_seconds": 300,
+    "lambda_description": "aws:states:opt-out",
+    "environment_variables": {
+      "AWS_REGION": "eu-west-1"
+    }
+  }
+}
