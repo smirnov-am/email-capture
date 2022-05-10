@@ -16,15 +16,9 @@ You can self-host email capture form on AWS for free.
 
  - AWS Lambda
  - AWS API Gateway
- - Python
- - DynamoDB
+ - AWS DynamoDB
+ - Python+Flask
  - Bootstrap4
-
-### TODO
-
-1. Add email validations 
-2. Add domain validation
-
 
 > Do you need help with hosting this form? Reach out to me at msc.smirnov.am@gmail.com
 
