@@ -22,5 +22,5 @@ You can self host email capture form on AWS for free.
  1. Deploy guide
  2. Provide working example
 
-> Do you need help with hosting this form? Reach you to me at msc.smirnov.am@gmail.com
+> Do you need help with hosting this form? Reach out to me at msc.smirnov.am@gmail.com
 
