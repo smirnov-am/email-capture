@@ -10,21 +10,20 @@
 
   <title>Thank you!</title>
   <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='checkbox.png') }}"/>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRVJ74QRG2"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{config.G_TAG}}"></script>
   <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-CRVJ74QRG2');
-      gtag('event', 'registration');
+      gtag('config', '{{config.G_TAG}}');
+      gtag('event', '{{config.G_EVENT}}');
     </script>
 </head>
 <body>
 <div class="container">
   <h1>Thank you!</h1>
-  <h2>The app is on active development. Stay tuned for updates!</h2>
-  <a href="https://telegr.store">Back to home page</a>
+  <a href="https://{{config.DOMAIN}}">Back to home page</a>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
